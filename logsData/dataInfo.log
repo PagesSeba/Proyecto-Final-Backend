@@ -1,0 +1,34 @@
+[2022-11-15T23:55:17.358] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-15T23:55:18.351] [INFO] prod - Conectado a mongoDB ac-6denoft-shard-00-00.coymqb5.mongodb.net:27017/test
+[2022-11-15T23:55:18.597] [INFO] prod - Se obtienen productos
+[2022-11-15T23:55:18.607] [INFO] prod - Server running on http://localhost:8080
+[2022-11-15T23:55:22.815] [INFO] prod - Se registra petición GET /login
+[2022-11-15T23:55:38.605] [INFO] prod - Se registra petición POST /login
+[2022-11-15T23:55:38.605] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-15T23:55:38.605] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-15T23:55:38.654] [INFO] prod - Se obtiene user
+[2022-11-15T23:55:38.654] [INFO] prod - Se obtiene user
+[2022-11-15T23:55:39.599] [INFO] prod - Se registra petición GET /productos
+[2022-11-15T23:55:39.599] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-15T23:55:39.599] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-15T23:55:39.648] [INFO] prod - Se obtiene user
+[2022-11-15T23:55:39.648] [INFO] prod - Se obtiene user
+[2022-11-15T23:55:39.648] [INFO] prod - Se registra petición GET /productos por seba
+[2022-11-15T23:56:26.538] [INFO] prod - Se registra petición GET /productos
+[2022-11-15T23:56:26.538] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-15T23:56:26.538] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-15T23:56:26.588] [INFO] prod - Se obtiene user
+[2022-11-15T23:56:26.588] [INFO] prod - Se obtiene user
+[2022-11-15T23:56:26.588] [INFO] prod - Se registra petición GET /productos por seba
+[2022-11-15T23:59:36.684] [INFO] prod - Se registra petición GET /productos
+[2022-11-15T23:59:36.685] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-15T23:59:36.685] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-15T23:59:36.733] [INFO] prod - Se obtiene user
+[2022-11-15T23:59:36.733] [INFO] prod - Se obtiene user
+[2022-11-15T23:59:36.733] [INFO] prod - Se registra petición GET /productos por seba
+[2022-11-15T23:59:45.459] [INFO] prod - Se registra petición GET /productos
+[2022-11-15T23:59:45.459] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-15T23:59:45.459] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-15T23:59:45.509] [INFO] prod - Se obtienen productos
+[2022-11-15T23:59:45.509] [INFO] prod - Se obtienen productos
+[2022-11-15T23:59:45.509] [INFO] prod - Se obtienen productos

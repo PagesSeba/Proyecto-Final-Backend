@@ -1,0 +1,20 @@
+<div class="container-fluid" style="display: flex; justify-content:space-between; align-items:center; padding:3rem">
+    <div class="text-center text-light">
+        <h1><i><b> {{nombre}} </b></i></h1>
+        <div>
+            <img src={{imagen}} alt={{nombre}} width="50px" />
+        </div>
+        <div>
+            <span><i> {{email}} </i> </span>
+        </div>
+    </div>
+        <div>
+        <button class="btn btn-warning" onclick="location.href='/chat'">chat</button>
+    </div>
+    <div>
+        <button class="btn btn-danger" onclick="location.href='/logout'">Desloguear</button>
+    </div>
+</div>
+{{>navSocket}}
+{{>formchat}}
+{{> products}}

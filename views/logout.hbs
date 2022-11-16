@@ -1,0 +1,16 @@
+<div class="containerIngreso text-center my-4 mt-5">
+    <div class="container text-center p-4">
+        <h4>Hasta luego,</h4>
+        <h2 class="text-light"><b> <i>{{nombre}}</i></b></h2>
+        <h5>le esperamos nuevamente!</h5>
+    </div>
+    <div class="m-5">
+        <button class="btn btn-success p-3 my-4" onclick="location.href='/login'">Login</button>
+    </div>
+</div>
+
+<script>
+    setTimeout(() => {
+        location.href = '/login '
+    }, 2000)
+</script>

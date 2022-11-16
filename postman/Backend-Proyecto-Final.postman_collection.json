@@ -1,0 +1,607 @@
+{
+	"info": {
+		"_postman_id": "d059db81-ddfa-4644-af1c-ac8359df83c9",
+		"name": "Backend-Proyecto-Final",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21356390"
+	},
+	"item": [
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "http://localhost:8080/api/users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/users/:id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/637449adc7fe11277c6a42f9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"637449adc7fe11277c6a42f9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/users/:id/image",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/637449adc7fe11277c6a42f9/image",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"637449adc7fe11277c6a42f9",
+								"image"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/users/:id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/637449adc7fe11277c6a42f9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"637449adc7fe11277c6a42f9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/users/:id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/637449adc7fe11277c6a42f9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"637449adc7fe11277c6a42f9"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "productos",
+			"item": [
+				{
+					"name": "http://localhost:8080/api/productos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/productos\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"productos\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/productos/:id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/productos/63743d1a3e993f4c1ae65caf",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"productos",
+								"63743d1a3e993f4c1ae65caf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/productos",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzQzODZkMzUyNmY5MmQ3M2VmMmQxNiIsImlhdCI6MTY2ODU2MTAwNSwiZXhwIjoxNjY4NjQ3NDA1fQ.1cShrnUALKzbI_zi4aYf_Pj9w_mWCJeOKuY5wOWzyFY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Producto 1\",\r\n    \"price\": 200,\r\n    \"stock\": 5,\r\n    \"description\": \"Descripción de Producto 1\",\r\n    \"image\": \"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d88ae2138faf49be8f74aeca012c62eb_9366/Camiseta_Titular_Argentina_22_Messi_Blanco_HL8425_01_laydown.jpg\",\r\n    \"code\": \"PROD001\",\r\n    \"category\": \"titular\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/productos\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"productos\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/productos/:id/image",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzQzODZkMzUyNmY5MmQ3M2VmMmQxNiIsImlhdCI6MTY2ODU2MTAwNSwiZXhwIjoxNjY4NjQ3NDA1fQ.1cShrnUALKzbI_zi4aYf_Pj9w_mWCJeOKuY5wOWzyFY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Producto 1\",\r\n    \"price\": 200,\r\n    \"stock\": 5,\r\n    \"description\": \"Descripción de Producto 1\",\r\n    \"image\": \"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d88ae2138faf49be8f74aeca012c62eb_9366/Camiseta_Titular_Argentina_22_Messi_Blanco_HL8425_01_laydown.jpg\",\r\n    \"code\": \"PROD001\",\r\n    \"category\": \"titular\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/productos/63743d1a3e993f4c1ae65caf/image\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"productos",
+								"63743d1a3e993f4c1ae65caf",
+								"image\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/productos/:id",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzQzODZkMzUyNmY5MmQ3M2VmMmQxNiIsImlhdCI6MTY2ODU2MTAwNSwiZXhwIjoxNjY4NjQ3NDA1fQ.1cShrnUALKzbI_zi4aYf_Pj9w_mWCJeOKuY5wOWzyFY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\r\n    \"image\": \"https://assets.adidas.com/images/w_600,f_auto,q_auto/2c9a5c4a4eac470b8ecfaeca012c625d_9366/Camiseta_Titular_Argentina_22_Messi_Blanco_HL8425.jpg\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/productos/63743d1a3e993f4c1ae65caf",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"productos",
+								"63743d1a3e993f4c1ae65caf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/:id",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzNzQzODZkMzUyNmY5MmQ3M2VmMmQxNiIsImlhdCI6MTY2ODU2MTAwNSwiZXhwIjoxNjY4NjQ3NDA1fQ.1cShrnUALKzbI_zi4aYf_Pj9w_mWCJeOKuY5wOWzyFY",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/api/63743d1a3e993f4c1ae65caf\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"63743d1a3e993f4c1ae65caf\n"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "carrito",
+			"item": [
+				{
+					"name": "http://localhost:8080/api/carritos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/carritos\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"carritos\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/carritos/:id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/carritos/63743e8f3e993f4c1ae65ccb\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"carritos",
+								"63743e8f3e993f4c1ae65ccb\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/carritos/:id/productos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/carritos/63743e8f3e993f4c1ae65ccb/productos\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"carritos",
+								"63743e8f3e993f4c1ae65ccb",
+								"productos\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/carritos/compra/:id/user/:idUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/carritos/compra/63743e8f3e993f4c1ae65ccb/user/637449adc7fe11277c6a42f9\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"carritos",
+								"compra",
+								"63743e8f3e993f4c1ae65ccb",
+								"user",
+								"637449adc7fe11277c6a42f9\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/carritos",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"carrito 1\",\r\n\"productId\":\"63743d1a3e993f4c1ae65caf\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/carritos\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"carritos\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/carritos/:id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"carrito 1\",\r\n\"productId\":\"63743d1a3e993f4c1ae65caf\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/carritos/63743e8f3e993f4c1ae65ccb\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"carritos",
+								"63743e8f3e993f4c1ae65ccb\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/carritos/:id/productos/:idProduct",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/carritos/63743e8f3e993f4c1ae65ccb/productos/63743d1a3e993f4c1ae65caf\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"carritos",
+								"63743e8f3e993f4c1ae65ccb",
+								"productos",
+								"63743d1a3e993f4c1ae65caf\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/carritos/:id/productos/:idProduct Copy",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/carritos/63743e8f3e993f4c1ae65ccb/productos/63743d1a3e993f4c1ae65caf\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"carritos",
+								"63743e8f3e993f4c1ae65ccb",
+								"productos",
+								"63743d1a3e993f4c1ae65caf\n"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "http://localhost:8080/api/auth/signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"admim\",\r\n    \"email\": \"admin@mail.com\",\r\n    \"password\": \"admin\",\r\n    \"roles\":[\r\n        \"admin\"\r\n    ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/auth/signup\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"auth",
+								"signup\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/auth/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"admim\",\r\n    \"email\": \"admin@mail.com\",\r\n    \"password\": \"admin\",\r\n    \"roles\":[\r\n        \"admin\"\r\n    ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/auth/login\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"auth",
+								"login\n"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "chats",
+			"item": [
+				{
+					"name": "http://localhost:8080/chats",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test@mail.com\",\r\n    \"message\": \"holaaaa!\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/chats\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"chats\n"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/chats",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/chats\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"chats\n"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

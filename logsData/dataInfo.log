@@ -32,3 +32,13 @@
 [2022-11-15T23:59:45.509] [INFO] prod - Se obtienen productos
 [2022-11-15T23:59:45.509] [INFO] prod - Se obtienen productos
 [2022-11-15T23:59:45.509] [INFO] prod - Se obtienen productos
+[2022-11-16T00:01:57.555] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-16T00:01:58.395] [INFO] prod - Conectado a mongoDB ac-6denoft-shard-00-01.coymqb5.mongodb.net:27017/test
+[2022-11-16T00:01:58.644] [INFO] prod - Se obtienen productos
+[2022-11-16T00:01:58.653] [INFO] prod - Server running on http://localhost:8080
+[2022-11-16T00:11:18.046] [INFO] prod - Se registra petición GET /productos/63743d1a3e993f4c1ae65caf
+[2022-11-16T00:11:18.046] [INFO] prod - Se registra petición GET /api/productos/63743d1a3e993f4c1ae65caf
+[2022-11-16T00:11:18.046] [INFO] prod - Se registra petición GET /api/productos/63743d1a3e993f4c1ae65caf
+[2022-11-16T00:11:18.096] [INFO] prod - Se obtiene producto
+[2022-11-16T00:11:18.096] [INFO] prod - Se obtiene producto
+[2022-11-16T00:11:18.097] [INFO] prod - Se obtiene producto

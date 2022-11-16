@@ -42,3 +42,321 @@
 [2022-11-16T00:11:18.096] [INFO] prod - Se obtiene producto
 [2022-11-16T00:11:18.096] [INFO] prod - Se obtiene producto
 [2022-11-16T00:11:18.097] [INFO] prod - Se obtiene producto
+[2022-11-16T11:24:12.059] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-16T11:24:12.937] [INFO] prod - Conectado a mongoDB ac-6denoft-shard-00-00.coymqb5.mongodb.net:27017/test
+[2022-11-16T11:24:13.283] [INFO] prod - Se obtienen productos
+[2022-11-16T11:24:13.292] [INFO] prod - Server running on http://localhost:8080
+[2022-11-16T11:24:31.273] [WARN] prod - { '404': 'GET /chats%0A' }
+[2022-11-16T11:24:38.685] [INFO] prod - Se registra petición GET /login
+[2022-11-16T11:24:38.810] [WARN] prod - { '404': 'GET /favicon.ico' }
+[2022-11-16T11:24:48.708] [INFO] prod - Se registra petición POST /login
+[2022-11-16T11:24:48.708] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-16T11:24:48.708] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-16T11:24:48.755] [INFO] prod - Se obtiene user
+[2022-11-16T11:24:48.755] [INFO] prod - Se obtiene user
+[2022-11-16T11:24:49.984] [INFO] prod - Se registra petición GET /productos
+[2022-11-16T11:24:49.984] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-16T11:24:49.984] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-16T11:24:50.030] [INFO] prod - Se obtiene user
+[2022-11-16T11:24:50.031] [INFO] prod - Se obtiene user
+[2022-11-16T11:24:50.032] [INFO] prod - Se registra petición GET /productos por seba
+[2022-11-16T11:24:56.682] [WARN] prod - { '404': 'GET /chats%0A' }
+[2022-11-16T11:26:14.810] [WARN] prod - { '404': 'GET /%0A' }
+[2022-11-16T11:26:35.475] [WARN] prod - { '404': 'GET /api/chats%0A' }
+[2022-11-16T11:27:33.122] [WARN] prod - { '404': 'GET /chat%0A' }
+[2022-11-16T11:27:37.778] [WARN] prod - { '404': 'GET /chat/%0A' }
+[2022-11-16T11:27:45.535] [WARN] prod - { '404': 'GET /chat/%0A' }
+[2022-11-16T11:28:08.451] [INFO] prod - Se registra petición GET /productos
+[2022-11-16T11:28:08.451] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-16T11:28:08.451] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-16T11:28:08.501] [INFO] prod - Se obtiene user
+[2022-11-16T11:28:08.501] [INFO] prod - Se obtiene user
+[2022-11-16T11:28:08.501] [INFO] prod - Se registra petición GET /productos por seba
+[2022-11-16T11:28:16.914] [INFO] prod - Se registra petición GET /productos
+[2022-11-16T11:28:16.914] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-16T11:28:16.914] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-16T11:28:16.962] [INFO] prod - Se obtiene user
+[2022-11-16T11:28:16.962] [INFO] prod - Se obtiene user
+[2022-11-16T11:28:16.962] [INFO] prod - Se registra petición GET /productos por seba
+[2022-11-16T11:32:11.735] [INFO] prod - Se registra petición GET /productos
+[2022-11-16T11:32:11.735] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-16T11:32:11.735] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-16T11:32:11.783] [INFO] prod - Se obtiene user
+[2022-11-16T11:32:11.783] [INFO] prod - Se obtiene user
+[2022-11-16T11:32:11.784] [INFO] prod - Se registra petición GET /productos por seba
+[2022-11-16T11:32:44.111] [INFO] prod - Se registra petición GET /users/637449adc7fe11277c6a42f9/image
+[2022-11-16T11:32:44.111] [INFO] prod - Se registra petición GET /api/users/637449adc7fe11277c6a42f9
+[2022-11-16T11:32:44.111] [INFO] prod - Se registra petición GET /users/637449adc7fe11277c6a42f9
+[2022-11-16T11:32:44.160] [INFO] prod - Se obtiene user
+[2022-11-16T11:32:44.160] [INFO] prod - Se obtiene user
+[2022-11-16T11:33:58.574] [WARN] prod - { '404': 'GET /api/carritos%0A' }
+[2022-11-16T11:34:07.923] [INFO] prod - Se registra petición GET /api/carritos/63743e8f3e993f4c1ae65ccb
+
+[2022-11-16T11:34:23.187] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-16T11:34:24.022] [INFO] prod - Conectado a mongoDB ac-6denoft-shard-00-02.coymqb5.mongodb.net:27017/test
+[2022-11-16T11:34:24.322] [INFO] prod - Se obtienen productos
+[2022-11-16T11:34:24.332] [INFO] prod - Server running on http://localhost:8080
+[2022-11-16T11:34:31.681] [WARN] prod - { '404': 'GET /api/carritos%0A' }
+[2022-11-16T11:49:45.800] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-16T11:49:46.693] [INFO] prod - Conectado a mongoDB ac-6denoft-shard-00-01.coymqb5.mongodb.net:27017/test
+[2022-11-16T11:49:46.943] [INFO] prod - Se obtienen productos
+[2022-11-16T11:49:46.952] [INFO] prod - Server running on http://localhost:8080
+[2022-11-16T11:49:56.460] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:50:11.357] [INFO] prod - Se registra petición GET /login
+[2022-11-16T11:50:14.146] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:50:23.143] [INFO] prod - Se registra petición POST /login
+[2022-11-16T11:50:23.143] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-16T11:50:23.143] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-16T11:50:23.193] [INFO] prod - Se obtiene user
+[2022-11-16T11:50:23.193] [INFO] prod - Se obtiene user
+[2022-11-16T11:50:26.129] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:51:02.357] [INFO] prod - Se registra petición GET /productos
+[2022-11-16T11:51:02.357] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-16T11:51:02.357] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-16T11:51:02.407] [INFO] prod - Se obtiene user
+[2022-11-16T11:51:02.407] [INFO] prod - Se obtiene user
+[2022-11-16T11:51:02.407] [INFO] prod - Se registra petición GET /productos por seba
+[2022-11-16T11:51:07.224] [INFO] prod - Se registra petición GET /logout
+[2022-11-16T11:51:07.224] [INFO] prod - Se registra petición GET /logout por seba
+[2022-11-16T11:51:09.257] [INFO] prod - Se registra petición GET /login
+[2022-11-16T11:51:44.588] [INFO] prod - Se registra petición GET /users
+[2022-11-16T11:51:44.588] [INFO] prod - Se registra petición GET /api/users
+[2022-11-16T11:51:44.588] [INFO] prod - Se registra petición GET /users
+[2022-11-16T11:51:44.638] [INFO] prod - Se obtienen users
+[2022-11-16T11:51:44.638] [INFO] prod - Se obtienen users
+[2022-11-16T11:52:09.110] [INFO] prod - Se registra petición GET /users/637449adc7fe11277c6a42f9
+[2022-11-16T11:52:09.110] [INFO] prod - Se registra petición GET /api/users/637449adc7fe11277c6a42f9
+[2022-11-16T11:52:09.110] [INFO] prod - Se registra petición GET /users/637449adc7fe11277c6a42f9
+[2022-11-16T11:52:09.157] [INFO] prod - Se obtiene user
+[2022-11-16T11:52:09.158] [INFO] prod - Se obtiene user
+[2022-11-16T11:52:12.937] [INFO] prod - Se registra petición GET /users/637449adc7fe11277c6a42f9/image
+[2022-11-16T11:52:12.937] [INFO] prod - Se registra petición GET /api/users/637449adc7fe11277c6a42f9
+[2022-11-16T11:52:12.937] [INFO] prod - Se registra petición GET /users/637449adc7fe11277c6a42f9
+[2022-11-16T11:52:12.985] [INFO] prod - Se obtiene user
+[2022-11-16T11:52:12.985] [INFO] prod - Se obtiene user
+[2022-11-16T11:52:25.715] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:52:29.201] [INFO] prod - Se registra petición GET /productos/63743d1a3e993f4c1ae65caf
+[2022-11-16T11:52:29.201] [INFO] prod - Se registra petición GET /api/productos/63743d1a3e993f4c1ae65caf
+[2022-11-16T11:52:29.201] [INFO] prod - Se registra petición GET /api/productos/63743d1a3e993f4c1ae65caf
+[2022-11-16T11:52:29.249] [INFO] prod - Se obtiene producto
+[2022-11-16T11:52:29.249] [INFO] prod - Se obtiene producto
+[2022-11-16T11:52:29.249] [INFO] prod - Se obtiene producto
+[2022-11-16T11:52:32.441] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:52:34.422] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:52:53.316] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:53:19.548] [WARN] prod - { '404': 'GET /api/carritos%0A' }
+[2022-11-16T11:53:22.528] [INFO] prod - Se registra petición GET /api/carritos/63743e8f3e993f4c1ae65ccb
+
+[2022-11-16T11:54:49.570] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-16T11:54:51.635] [INFO] prod - Conectado a mongoDB ac-6denoft-shard-00-00.coymqb5.mongodb.net:27017/test
+[2022-11-16T11:54:51.871] [INFO] prod - Se obtienen productos
+[2022-11-16T11:54:51.881] [INFO] prod - Server running on http://localhost:8080
+[2022-11-16T12:23:21.179] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-16T12:23:22.112] [INFO] prod - Conectado a mongoDB ac-6denoft-shard-00-00.coymqb5.mongodb.net:27017/test
+[2022-11-16T12:23:22.350] [INFO] prod - Se obtienen productos
+[2022-11-16T12:23:22.359] [INFO] prod - Server running on http://localhost:8080
+[2022-11-16T12:23:44.907] [INFO] prod - Se registra petición GET /users
+[2022-11-16T12:23:44.907] [INFO] prod - Se registra petición GET /api/users
+[2022-11-16T12:23:44.907] [INFO] prod - Se registra petición GET /users
+[2022-11-16T12:23:44.959] [INFO] prod - Se obtienen users
+[2022-11-16T12:23:44.959] [INFO] prod - Se obtienen users
+[2022-11-16T12:23:58.151] [INFO] prod - Se registra petición DELETE /users/6374febeb14a53c904011bc3
+[2022-11-16T12:23:58.151] [INFO] prod - Se registra petición DELETE /api/users/6374febeb14a53c904011bc3
+[2022-11-16T12:23:58.151] [INFO] prod - Se registra petición DELETE /users/6374febeb14a53c904011bc3
+[2022-11-16T12:23:58.206] [INFO] prod - Se elimina user
+[2022-11-16T12:23:58.206] [INFO] prod - Se elimina user
+[2022-11-16T12:24:01.392] [INFO] prod - Se registra petición GET /users/6374febeb14a53c904011bc3
+[2022-11-16T12:24:01.392] [INFO] prod - Se registra petición GET /api/users/6374febeb14a53c904011bc3
+[2022-11-16T12:24:01.393] [INFO] prod - Se registra petición GET /users/6374febeb14a53c904011bc3
+[2022-11-16T12:24:01.441] [INFO] prod - Se obtiene user
+[2022-11-16T12:24:01.441] [INFO] prod - Se obtiene user
+[2022-11-16T12:24:01.441] [ERROR] prod - TypeError: Cannot read properties of null (reading 'username')
+    at getUserById (file:///C:/Users/Usuario/Documents/Backend/Proyecto%20Final%20Backend/src/controllers/userController.js:176:22)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-11-16T12:24:05.299] [INFO] prod - Se registra petición GET /users
+[2022-11-16T12:24:05.299] [INFO] prod - Se registra petición GET /api/users
+[2022-11-16T12:24:05.299] [INFO] prod - Se registra petición GET /users
+[2022-11-16T12:24:05.350] [INFO] prod - Se obtienen users
+[2022-11-16T12:24:05.350] [INFO] prod - Se obtienen users
+[2022-11-16T12:24:21.063] [INFO] prod - Se registra petición GET /users/63743c983e993f4c1ae65ca2
+[2022-11-16T12:24:21.063] [INFO] prod - Se registra petición GET /api/users/63743c983e993f4c1ae65ca2
+[2022-11-16T12:24:21.063] [INFO] prod - Se registra petición GET /users/63743c983e993f4c1ae65ca2
+[2022-11-16T12:24:21.111] [INFO] prod - Se obtiene user
+[2022-11-16T12:24:21.111] [INFO] prod - Se obtiene user
+[2022-11-16T12:24:31.695] [WARN] prod - { '404': 'GET /api/productos/63743d1a3e993f4c1ae65caf/image%0A' }
+[2022-11-16T12:24:38.464] [INFO] prod - Se registra petición GET /productos/63743d1a3e993f4c1ae65caf
+
+[2022-11-16T12:24:54.338] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-16T12:24:55.194] [INFO] prod - Conectado a mongoDB ac-6denoft-shard-00-00.coymqb5.mongodb.net:27017/test
+[2022-11-16T12:24:55.415] [INFO] prod - Se obtienen productos
+[2022-11-16T12:24:55.425] [INFO] prod - Server running on http://localhost:8080
+[2022-11-16T12:24:55.619] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T12:25:26.912] [WARN] prod - { '404': 'GET /api/carrito%0A' }
+[2022-11-16T12:25:29.116] [WARN] prod - { '404': 'GET /api/carritos%0A' }
+[2022-11-16T12:26:00.102] [INFO] prod - Se registra petición POST 
+            /api/carritos/63743e8f3e993f4c1ae65ccb/productos/63743d1a3e993f4c1ae65caf
+
+[2022-11-16T12:26:00.103] [INFO] prod - Se registra petición POST /api/carritos/63743e8f3e993f4c1ae65ccb/productos
+[2022-11-16T12:26:00.103] [INFO] prod - Se registra petición POST /api/carritos/63743e8f3e993f4c1ae65ccb/productos/63743d1a3e993f4c1ae65caf
+
+[2022-11-16T12:26:00.160] [ERROR] prod - Error al agregar producto al carrito en dao addProductToCart()
+[2022-11-16T12:42:34.792] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-16T12:42:35.798] [INFO] prod - Conectado a mongoDB ac-6denoft-shard-00-02.coymqb5.mongodb.net:27017/test
+[2022-11-16T12:42:36.029] [INFO] prod - Se obtienen productos
+[2022-11-16T12:42:36.039] [INFO] prod - Server running on http://localhost:8080
+[2022-11-16T12:42:44.988] [INFO] prod - Se registra petición GET /api/carritos
+[2022-11-16T12:42:44.988] [INFO] prod - Se registra petición GET /api/carritos
+[2022-11-16T12:42:44.988] [INFO] prod - Se registra petición GET /api/carritos
+[2022-11-16T12:42:45.038] [INFO] prod - Se obtienen carritos
+[2022-11-16T12:42:45.038] [INFO] prod - Se obtienen carts
+[2022-11-16T12:42:45.038] [INFO] prod - Se obtienen carts
+[2022-11-16T12:44:10.192] [INFO] prod - Se registra petición POST /api/carritos
+[2022-11-16T12:44:10.192] [INFO] prod - Se registra petición POST /api/carritos
+[2022-11-16T12:44:10.192] [INFO] prod - Se registra petición POST /api/carritos
+[2022-11-16T12:44:10.251] [INFO] prod - Se crea cart
+[2022-11-16T12:44:10.254] [INFO] prod - Se crea cart
+[2022-11-16T12:44:10.254] [INFO] prod - Se crea cart
+[2022-11-16T12:44:28.316] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:44:28.317] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:44:28.317] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:44:28.365] [INFO] prod - Se obtiene cart
+[2022-11-16T12:44:28.366] [INFO] prod - Se obtiene cart
+[2022-11-16T12:44:28.366] [INFO] prod - Se obtiene cart
+[2022-11-16T12:45:12.171] [INFO] prod - Se registra petición POST 
+            /api/carritos/6375054a179107b41c45268a/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:12.171] [INFO] prod - Se registra petición POST /api/carritos/6375054a179107b41c45268a/productos
+[2022-11-16T12:45:12.171] [INFO] prod - Se registra petición POST /api/carritos/6375054a179107b41c45268a/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:12.266] [INFO] prod - Se agrega producto al carrito
+[2022-11-16T12:45:12.266] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:45:12.314] [INFO] prod - Se obtiene cart
+[2022-11-16T12:45:12.314] [INFO] prod - Se registra petición GET /api/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:12.322] [INFO] prod - Se agrega producto al carrito
+[2022-11-16T12:45:12.362] [INFO] prod - Se obtiene producto
+[2022-11-16T12:45:12.362] [INFO] prod - Se obtiene producto
+[2022-11-16T12:45:12.362] [INFO] prod - Se agrega producto al carrito
+[2022-11-16T12:45:16.880] [INFO] prod - Se registra petición POST 
+            /api/carritos/6375054a179107b41c45268a/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:16.880] [INFO] prod - Se registra petición POST /api/carritos/6375054a179107b41c45268a/productos
+[2022-11-16T12:45:16.880] [INFO] prod - Se registra petición POST /api/carritos/6375054a179107b41c45268a/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:16.972] [INFO] prod - Se agrega producto al carrito
+[2022-11-16T12:45:16.972] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:45:17.017] [INFO] prod - Se obtiene cart
+[2022-11-16T12:45:17.017] [INFO] prod - Se registra petición GET /api/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:17.028] [INFO] prod - Se agrega producto al carrito
+[2022-11-16T12:45:17.063] [INFO] prod - Se obtiene producto
+[2022-11-16T12:45:17.063] [INFO] prod - Se obtiene producto
+[2022-11-16T12:45:17.064] [INFO] prod - Se agrega producto al carrito
+[2022-11-16T12:45:27.254] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:45:27.254] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:45:27.254] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:45:27.300] [INFO] prod - Se obtiene cart
+[2022-11-16T12:45:27.300] [INFO] prod - Se obtiene cart
+[2022-11-16T12:45:27.300] [INFO] prod - Se obtiene cart
+[2022-11-16T12:45:49.786] [INFO] prod - Se registra petición DELETE /api/carritos/6375054a179107b41c45268a/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:49.786] [INFO] prod - Se registra petición DELETE /api/carritos/6375054a179107b41c45268a/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:49.786] [INFO] prod - Se registra petición GET /api/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:49.832] [INFO] prod - Se obtiene producto
+[2022-11-16T12:45:49.832] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:45:49.879] [INFO] prod - Se obtiene cart
+[2022-11-16T12:45:49.880] [INFO] prod - Se registra petición DELETE /api/carritos/6375054a179107b41c45268a/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:49.970] [INFO] prod - Se elimina producto del carrito
+[2022-11-16T12:45:49.970] [INFO] prod - Se elimina producto del cart
+[2022-11-16T12:45:50.024] [INFO] prod - Se elimina producto del carrito
+[2022-11-16T12:45:51.961] [INFO] prod - Se registra petición DELETE /api/carritos/6375054a179107b41c45268a/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:51.961] [INFO] prod - Se registra petición DELETE /api/carritos/6375054a179107b41c45268a/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:51.961] [INFO] prod - Se registra petición GET /api/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:52.008] [INFO] prod - Se obtiene producto
+[2022-11-16T12:45:52.008] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:45:52.054] [INFO] prod - Se obtiene cart
+[2022-11-16T12:45:52.054] [INFO] prod - Se registra petición DELETE /api/carritos/6375054a179107b41c45268a/productos/62c4bde38435dbcacac3316c
+[2022-11-16T12:45:52.179] [INFO] prod - Se elimina producto del carrito
+[2022-11-16T12:45:52.179] [INFO] prod - Se elimina producto del cart
+[2022-11-16T12:45:52.230] [INFO] prod - Se elimina producto del carrito
+[2022-11-16T12:46:21.563] [INFO] prod - Se registra petición POST 
+            /api/carritos/6375054a179107b41c45268a/productos/63743d803e993f4c1ae65cb9
+[2022-11-16T12:46:21.563] [INFO] prod - Se registra petición POST /api/carritos/6375054a179107b41c45268a/productos
+[2022-11-16T12:46:21.563] [INFO] prod - Se registra petición POST /api/carritos/6375054a179107b41c45268a/productos/63743d803e993f4c1ae65cb9
+[2022-11-16T12:46:21.655] [INFO] prod - Se agrega producto al carrito
+[2022-11-16T12:46:21.655] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:46:21.700] [INFO] prod - Se obtiene cart
+[2022-11-16T12:46:21.700] [INFO] prod - Se registra petición GET /api/productos/63743d803e993f4c1ae65cb9
+[2022-11-16T12:46:21.708] [INFO] prod - Se agrega producto al carrito
+[2022-11-16T12:46:21.748] [INFO] prod - Se obtiene producto
+[2022-11-16T12:46:21.748] [INFO] prod - Se obtiene producto
+[2022-11-16T12:46:21.748] [INFO] prod - Se agrega producto al carrito
+[2022-11-16T12:46:24.377] [INFO] prod - Se registra petición POST 
+            /api/carritos/6375054a179107b41c45268a/productos/63743d803e993f4c1ae65cb9
+[2022-11-16T12:46:24.377] [INFO] prod - Se registra petición POST /api/carritos/6375054a179107b41c45268a/productos
+[2022-11-16T12:46:24.377] [INFO] prod - Se registra petición POST /api/carritos/6375054a179107b41c45268a/productos/63743d803e993f4c1ae65cb9
+[2022-11-16T12:46:24.468] [INFO] prod - Se agrega producto al carrito
+[2022-11-16T12:46:24.468] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:46:24.514] [INFO] prod - Se obtiene cart
+[2022-11-16T12:46:24.514] [INFO] prod - Se registra petición GET /api/productos/63743d803e993f4c1ae65cb9
+[2022-11-16T12:46:24.523] [INFO] prod - Se agrega producto al carrito
+[2022-11-16T12:46:24.560] [INFO] prod - Se obtiene producto
+[2022-11-16T12:46:24.560] [INFO] prod - Se obtiene producto
+[2022-11-16T12:46:24.560] [INFO] prod - Se agrega producto al carrito
+[2022-11-16T12:46:34.493] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:46:34.493] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:46:34.493] [INFO] prod - Se registra petición GET /api/carritos/6375054a179107b41c45268a
+[2022-11-16T12:46:34.542] [INFO] prod - Se obtiene cart
+[2022-11-16T12:46:34.542] [INFO] prod - Se obtiene cart
+[2022-11-16T12:46:34.542] [INFO] prod - Se obtiene cart
+[2022-11-16T12:48:22.139] [WARN] prod - { '404': 'GET /api/chats' }
+[2022-11-16T12:48:25.740] [WARN] prod - { '404': 'GET /api/chat' }
+[2022-11-16T12:48:37.969] [INFO] prod - Obteneiendo chats
+[2022-11-16T12:50:42.141] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-16T12:50:43.209] [INFO] prod - Conectado a mongoDB ac-6denoft-shard-00-00.coymqb5.mongodb.net:27017/test
+[2022-11-16T12:50:43.490] [INFO] prod - Se obtienen productos
+[2022-11-16T12:50:43.499] [INFO] prod - Server running on http://localhost:8080
+[2022-11-16T12:52:20.705] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-16T12:52:21.578] [INFO] prod - Conectado a mongoDB ac-6denoft-shard-00-00.coymqb5.mongodb.net:27017/test
+[2022-11-16T12:52:21.813] [INFO] prod - Se obtienen productos
+[2022-11-16T12:52:21.822] [INFO] prod - Server running on http://localhost:8080
+[2022-11-16T12:52:32.154] [INFO] prod - Se registra petición GET /api/carritos
+[2022-11-16T12:52:32.154] [INFO] prod - Se registra petición GET /api/carritos
+[2022-11-16T12:52:32.154] [INFO] prod - Se registra petición GET /api/carritos
+[2022-11-16T12:52:32.204] [INFO] prod - Se obtienen carritos
+[2022-11-16T12:52:32.204] [INFO] prod - Se obtienen carts
+[2022-11-16T12:52:32.204] [INFO] prod - Se obtienen carts
+[2022-11-16T12:55:08.550] [INFO] prod - Se registra petición GET /productos
+[2022-11-16T12:55:08.551] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-16T12:55:08.551] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-16T12:55:08.599] [INFO] prod - Se obtienen productos
+[2022-11-16T12:55:08.599] [INFO] prod - Se obtienen productos
+[2022-11-16T12:55:08.599] [INFO] prod - Se obtienen productos
+[2022-11-16T12:56:46.263] [INFO] prod - Se registra petición POST /productos
+[2022-11-16T12:56:46.264] [INFO] prod - Se registra petición POST /api/productos
+[2022-11-16T12:56:46.264] [INFO] prod - Se registra petición POST /api/productos
+[2022-11-16T12:56:46.319] [INFO] prod - Se crea producto
+[2022-11-16T12:56:46.319] [INFO] prod - Se crea producto
+[2022-11-16T12:56:46.319] [INFO] prod - Se crea producto
+[2022-11-16T12:57:00.954] [INFO] prod - Se registra petición GET /productos/6375083ea719a4f311c4d840
+[2022-11-16T12:57:00.954] [INFO] prod - Se registra petición GET /api/productos/6375083ea719a4f311c4d840
+[2022-11-16T12:57:00.954] [INFO] prod - Se registra petición GET /api/productos/6375083ea719a4f311c4d840
+[2022-11-16T12:57:01.002] [INFO] prod - Se obtiene producto
+[2022-11-16T12:57:01.002] [INFO] prod - Se obtiene producto
+[2022-11-16T12:57:01.002] [INFO] prod - Se obtiene producto
+[2022-11-16T13:11:14.191] [INFO] prod - Se registra petición GET /api/productos
+[2022-11-16T13:11:15.051] [INFO] prod - Conectado a mongoDB ac-6denoft-shard-00-00.coymqb5.mongodb.net:27017/test
+[2022-11-16T13:11:15.276] [INFO] prod - Se obtienen productos
+[2022-11-16T13:11:15.284] [INFO] prod - Server running on http://localhost:8080
+[2022-11-16T13:11:17.753] [INFO] prod - Se registra petición GET /login
+[2022-11-16T13:11:19.121] [WARN] prod - { '404': 'GET /favicon.ico' }
+[2022-11-16T13:11:26.766] [INFO] prod - Se registra petición POST /login
+[2022-11-16T13:11:26.766] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-16T13:11:26.766] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-16T13:11:26.813] [INFO] prod - Se obtiene user
+[2022-11-16T13:11:26.813] [INFO] prod - Se obtiene user
+[2022-11-16T13:11:28.320] [INFO] prod - Se registra petición GET /productos
+[2022-11-16T13:11:28.320] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-16T13:11:28.320] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-16T13:11:28.368] [INFO] prod - Se obtiene user
+[2022-11-16T13:11:28.368] [INFO] prod - Se obtiene user
+[2022-11-16T13:11:28.368] [INFO] prod - Se registra petición GET /productos por seba
+[2022-11-16T13:11:40.271] [INFO] prod - Se registra petición GET /productos
+[2022-11-16T13:11:40.271] [INFO] prod - Se registra petición GET /api/users/username/seba
+[2022-11-16T13:11:40.271] [INFO] prod - Se registra petición GET /users/username/seba
+[2022-11-16T13:11:40.320] [INFO] prod - Se obtiene user
+[2022-11-16T13:11:40.320] [INFO] prod - Se obtiene user
+[2022-11-16T13:11:40.320] [INFO] prod - Se registra petición GET /productos por seba

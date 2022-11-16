@@ -1,4 +1,28 @@
+//import {Chat} from "./models/Chat.js";
 
+// export default (io) => {
+
+//     io.on('connection', async (socket) => {
+
+//         const message = await Chat.find();
+
+//         // const message = await chat.loadMessage()
+//          socket.emit('messages', message )
+
+//          socket.on('message-new', async (data) => {
+//             await Chat.save(data)
+//             const message2=await Chat.find()
+//             io.sockets.emit('messages', message2)
+//          })
+       
+//         // socket.on('message-new',async data => {
+//         //     await chat.saveMessage(data)
+//         //     const message2 = await chat.loadMessage()
+//         //     io.sockets.emit('messages', message2 );
+//         // });
+//       })
+
+// }
 
 import Chat from "./models/Chat.js";
 

@@ -9,6 +9,10 @@ dotenv.config();
 import { Cart } from "../models/Cart.js";
 import { Product } from "../models/Product.js";
 import  User  from "../models/User.js";
+import sendMail from "../utils/messageEmailEthereal.js";
+import sendEmailGoogle from "../utils/messageEmailGoogle.js";
+const TEST_MAIL_ETHEREAL = process.env.TEST_MAIL_ETHEREAL;
+const FROM_EMAIL_GOOGLE = process.env.FROM_EMAIL_GOOGLE;
 class cartController {
   constructor() {
     this.cartService = [];
@@ -137,6 +141,8 @@ class cartController {
       const detalle = `El total es de la compra es $ ${total}. Detalle de la compra: ${products
         .map((product) => `${product.name} - ${product.price}`)
         .join(", ")}`;
+        sendMail(TEST_MAIL_ETHEREAL, message, detalle);
+        sendEmailGoogle(FROM_EMAIL_GOOGLE, message, detalle);
       res.json({
         message: "Compra realizada con éxito",
         cart: cart,

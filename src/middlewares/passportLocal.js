@@ -39,6 +39,8 @@ export const signupStrategy = new Strategy(
         const image = req.file
         const processImage = sharp(image.buffer);
         const data = await processImage.resize(200, 200).toBuffer();
+
+        //fs.writeFileSync(`avatar/users/${image}`, data);
       
         fs.writeFileSync(`avatar/users/${image.originalname}`, data);
         //image = image.originalname;

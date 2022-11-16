@@ -1,0 +1,32 @@
+[2022-11-16T11:24:31.273] [WARN] prod - { '404': 'GET /chats%0A' }
+[2022-11-16T11:24:38.810] [WARN] prod - { '404': 'GET /favicon.ico' }
+[2022-11-16T11:24:56.682] [WARN] prod - { '404': 'GET /chats%0A' }
+[2022-11-16T11:26:14.810] [WARN] prod - { '404': 'GET /%0A' }
+[2022-11-16T11:26:35.475] [WARN] prod - { '404': 'GET /api/chats%0A' }
+[2022-11-16T11:27:33.122] [WARN] prod - { '404': 'GET /chat%0A' }
+[2022-11-16T11:27:37.778] [WARN] prod - { '404': 'GET /chat/%0A' }
+[2022-11-16T11:27:45.535] [WARN] prod - { '404': 'GET /chat/%0A' }
+[2022-11-16T11:33:58.574] [WARN] prod - { '404': 'GET /api/carritos%0A' }
+[2022-11-16T11:34:07.925] [ERROR] prod - Error al obtener cart en dao getCartById()
+[2022-11-16T11:34:31.681] [WARN] prod - { '404': 'GET /api/carritos%0A' }
+[2022-11-16T11:49:56.460] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:50:14.146] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:50:26.129] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:52:25.715] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:52:32.441] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:52:34.422] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:52:53.316] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T11:53:19.548] [WARN] prod - { '404': 'GET /api/carritos%0A' }
+[2022-11-16T11:53:22.530] [ERROR] prod - Error al obtener cart en dao getCartById()
+[2022-11-16T12:24:01.441] [ERROR] prod - TypeError: Cannot read properties of null (reading 'username')
+    at getUserById (file:///C:/Users/Usuario/Documents/Backend/Proyecto%20Final%20Backend/src/controllers/userController.js:176:22)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-11-16T12:24:31.695] [WARN] prod - { '404': 'GET /api/productos/63743d1a3e993f4c1ae65caf/image%0A' }
+[2022-11-16T12:24:38.465] [ERROR] prod - Error al obtener producto
+[2022-11-16T12:24:55.619] [WARN] prod - { '404': 'GET /api/productos%0A' }
+[2022-11-16T12:25:26.912] [WARN] prod - { '404': 'GET /api/carrito%0A' }
+[2022-11-16T12:25:29.116] [WARN] prod - { '404': 'GET /api/carritos%0A' }
+[2022-11-16T12:26:00.160] [ERROR] prod - Error al agregar producto al carrito en dao addProductToCart()
+[2022-11-16T12:48:22.139] [WARN] prod - { '404': 'GET /api/chats' }
+[2022-11-16T12:48:25.740] [WARN] prod - { '404': 'GET /api/chat' }
+[2022-11-16T13:11:19.121] [WARN] prod - { '404': 'GET /favicon.ico' }
